@@ -8,6 +8,14 @@
     grid-gap: 6rem;
     align-items: start;
 
+    //progressive enhancement:
+    // @supports(display:grid) {
+    //      display: grid; // grid-template-columns: repeat(3, 1fr); // grid-template-row: auto auto; - isedac ese daayenebs implicit grid iiqneba
+    // grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+    // grid-gap: 6rem;
+    // align-items: start
+    // }
+    
 }
 
 .feature {
